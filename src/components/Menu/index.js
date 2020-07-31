@@ -1,6 +1,6 @@
 import React from 'react';
-import './Menu.css';
 import Logo from '../../assets/img/logo.png';
+import './Menu.css';
 import ButtonLink from './components/ButtonLink';
 import Button from '../Button';
 
@@ -10,7 +10,7 @@ function Menu() {
         <a href="/">
         <img className="Logo" src={Logo} alt="AluraFlix Logo" />
         </a>
-
+        
           <Button as="a" className="ButtonLink" href="/">
               Novo vídeo
           </Button>
@@ -21,3 +21,5 @@ function Menu() {
 }
 
 export default Menu;
+
+// a tag header poderia ser nav
